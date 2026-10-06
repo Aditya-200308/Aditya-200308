@@ -35,7 +35,7 @@ Building production-grade systems spanning **Voice AI, Multi-Document RAG & Neur
 ---
 
 ### 4. [GuardAI — Production LLM Guardrail & Automated CI/CD Evals](https://github.com/Aditya-200308/guard-ai)
-> **Production 3-tier LLM security firewall under 15ms latency with automated CI/CD red-team evaluation suites in GitHub Actions.**
+> **Multi-tier LLM security guardrail under 15ms latency with automated CI/CD red-team evaluation suites in GitHub Actions.**
 - **Tech Stack**: `Python`, `Google Gemini Flash`, `GitHub Actions (CI/CD)`, `Pytest`, `Regex Security Heuristics`, `Render`
 - 🌐 **Live Demo (Cloud)**: [https://guard-ai-uokf.onrender.com](https://guard-ai-uokf.onrender.com)
 - 📦 **Repository**: [Aditya-200308/guard-ai](https://github.com/Aditya-200308/guard-ai)
