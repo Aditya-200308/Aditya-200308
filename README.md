@@ -37,6 +37,7 @@ Building production-grade systems spanning **Voice AI, Multi-Document RAG & Neur
 ### 4. [GuardAI — Multi-tier LLM Security Guardrail & Automated CI/CD Evals](https://github.com/Aditya-200308/guard-ai)
 > **Multi-tier LLM security guardrail under 15ms latency with automated CI/CD red-team evaluation suites in GitHub Actions powered by Google Gemini 3.8 Flash.**
 - **Tech Stack**: `Python`, `Streamlit`, `Google Gemini 3.8 Flash`, `GitHub Actions (CI/CD)`, `Pytest`, `Regex Security Heuristics`
+- 🌐 **Live Demo (Streamlit Cloud)**: [https://guard-ai.streamlit.app](https://guard-ai.streamlit.app)
 - 📦 **Repository**: [Aditya-200308/guard-ai](https://github.com/Aditya-200308/guard-ai)
 
 ---
@@ -44,6 +45,7 @@ Building production-grade systems spanning **Voice AI, Multi-Document RAG & Neur
 ### 5. [DeepResearch AI — Autonomous Multi-Agent Research Platform](https://github.com/Aditya-200308/deepresearch-ai)
 > **Autonomous 4-agent collaborative crew (Researcher, Writer, Critic, Fact-Checker) orchestrated via CrewAI with rubric reflection loops and Google Gemini 3.8 Flash.**
 - **Tech Stack**: `Python`, `Streamlit`, `CrewAI`, `Google Gemini 3.8 Flash`, `BeautifulSoup4`, `Wikipedia API`
+- 🌐 **Live Demo (Streamlit Cloud)**: [https://deepresearch-ai.streamlit.app](https://deepresearch-ai.streamlit.app)
 - 📦 **Repository**: [Aditya-200308/deepresearch-ai](https://github.com/Aditya-200308/deepresearch-ai)
 
 ---
