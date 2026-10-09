@@ -37,6 +37,7 @@ Building production-grade systems spanning **Voice AI, Multi-Document RAG & Neur
 ### 4. [GuardAI — Multi-tier LLM Security Guardrail & Automated CI/CD Evals](https://github.com/Aditya-200308/guard-ai)
 > **Multi-tier LLM security guardrail under 15ms latency with automated CI/CD red-team evaluation suites in GitHub Actions powered by Google Gemini 3.8 Flash.**
 - **Tech Stack**: `Python`, `Streamlit`, `Google Gemini 3.8 Flash`, `GitHub Actions (CI/CD)`, `Pytest`, `Regex Security Heuristics`
+- 🌐 **Live Demo (Streamlit Cloud)**: [https://guard-ai-project.streamlit.app/](https://guard-ai-project.streamlit.app/)
 - 📦 **Repository**: [Aditya-200308/guard-ai](https://github.com/Aditya-200308/guard-ai)
 
 ---
@@ -44,6 +45,7 @@ Building production-grade systems spanning **Voice AI, Multi-Document RAG & Neur
 ### 5. [DeepResearch AI — Autonomous Multi-Agent Research Platform](https://github.com/Aditya-200308/deepresearch-ai)
 > **Autonomous 4-agent collaborative crew (Researcher, Writer, Critic, Fact-Checker) orchestrated via CrewAI with rubric reflection loops and Google Gemini 3.8 Flash.**
 - **Tech Stack**: `Python`, `Streamlit`, `CrewAI`, `Google Gemini 3.8 Flash`, `BeautifulSoup4`, `Wikipedia API`
+- 🌐 **Live Demo (Streamlit Cloud)**: [https://deepresearch-platform.streamlit.app/](https://deepresearch-platform.streamlit.app/)
 - 📦 **Repository**: [Aditya-200308/deepresearch-ai](https://github.com/Aditya-200308/deepresearch-ai)
 
 ---
@@ -52,7 +54,7 @@ Building production-grade systems spanning **Voice AI, Multi-Document RAG & Neur
 
 - **Programming Languages**: Python, JavaScript, SQL
 - **AI/ML & GenAI**: Voice AI, RAG, Multi-Agent Systems, Neural Re-Ranking, LLM Guardrails, Evaluation, Prompt Engineering
-- **AWS & Cloud AI**: Amazon Bedrock (Nova, Titan), S3, Redshift Serverless, Data API, CloudFormation, App Runner, IAM, KMS
+- **AWS & Cloud AI**: Amazon Bedrock, Nova, Titan, S3, Redshift Serverless, Data API, CloudFormation, App Runner, IAM, KMS
 - **Frameworks & Libraries**: Streamlit, FastAPI, Uvicorn, edge-tts, Web Speech API, LangChain (LCEL), CrewAI, Sentence-Transformers, PyMuPDF, Plotly, Pytest
-- **AI Infrastructure & Cloud**: ChromaDB, HNSW, Ollama, Llama 3.2, Mistral, REST APIs, Streamlit Cloud, Render
-- **Software Engineering & Security**: Git/GitHub, GitHub Actions (CI/CD), AsyncIO, Tool Calling, OOP, Regex, AST Parsing, CI/CD Evals
+- **AI Infrastructure & Cloud**: ChromaDB, HNSW, Vector Indexing, REST APIs, Streamlit Cloud, Render
+- **Software Engineering & Security**: Git/GitHub, GitHub Actions (CI/CD), AsyncIO, Tool Calling, OOP, Regex, CI/CD Evals
