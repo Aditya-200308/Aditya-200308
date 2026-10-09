@@ -1,0 +1,26 @@
+name: Keep-Alive Pinger
+
+on:
+  schedule:
+    # Runs every 6 hours to ensure Streamlit dormancy timer never expires
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows running manually anytime from GitHub Actions tab
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Live Portfolio Applications
+        run: |
+          urls=(
+            "https://aura-voice-agent-99r6.onrender.com"
+            "https://guard-ai-project.streamlit.app/"
+            "https://deepresearch-platform.streamlit.app/"
+            "https://ragdoc-ai-csxavqbvdxgndkdpujkv6m.streamlit.app"
+            "https://medshield-ai-jzzal6fn3ty9govidakazx.streamlit.app/"
+          )
+          for url in "${urls[@]}"; do
+            echo "Pinging $url..."
+            status=$(curl -s -L --max-time 30 -o /dev/null -w "%{http_code}" "$url" || echo "ERR")
+            echo "-> Response status: $status"
+          done
